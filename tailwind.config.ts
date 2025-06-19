@@ -68,6 +68,11 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			fontFamily: {
+        // Sets 'Inter' (via var(--font-sans)) as the default sans-serif font family.
+        // Tailwind automatically appends its default sans-serif fallbacks.
+        sans: ['var(--font-sans)'],
+      },
 			keyframes: {
 				'accordion-down': {
 					from: {
